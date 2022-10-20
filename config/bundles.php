@@ -9,4 +9,6 @@ return [
     Lexik\Bundle\JWTAuthenticationBundle\LexikJWTAuthenticationBundle::class => ['all' => true],
     Symfony\Bundle\TwigBundle\TwigBundle::class => ['all' => true],
     Symfony\Bundle\WebProfilerBundle\WebProfilerBundle::class => ['dev' => true, 'test' => true],
+    JMS\SerializerBundle\JMSSerializerBundle::class => ['all' => true],
+    FOS\RestBundle\FOSRestBundle::class => ['all' => true],
 ];
